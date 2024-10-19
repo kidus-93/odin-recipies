@@ -1,5 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: "Roboto", sans-serif;;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    display: flex;
+    flex-flow: row;
+    background-color: #1f2937; 
+}
+nav{
+    display: flex;
+    flex-flow: row;
+    width: 100vw;
+    height: 10vh;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    flex: 1 1 0;
+    margin: 10px;
+    justify-content: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.home{
+    background-color: #1f2937; ;
+    height: 70vh;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    padding: 12%;
+}
+.hero{
+    
+}
+
+.home h1{
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 48px;
+}
+
+.home p, a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+button{
+    background-color: #3882f6;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 8px;
+    width: 150px;
+    height: 30px;
+    margin-top: 15px;
+    border: transparent;
+
+}
+
+
