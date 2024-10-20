@@ -13,7 +13,7 @@ body {
     background-color: #f9faf8;
 }
 
-header {
+header, footer {
     display: flex;
     flex-flow: row;
     background-color: #1f2937; 
@@ -136,13 +136,70 @@ figcaption {
     font-size: 14px;
 }
 
-footer {
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    padding: 5%;
+    background-color: #e5e7eb;
+}
+
+.quote p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    padding: 12%;
+}
+b{
+    display: flex;
+    justify-content: flex-end;
+}
+.quote q {
+    font-size: 42px;
+
+}
+
+.CTA{
+    display: flex;
+    min-height: 70vh;
+    justify-content: center;
+    align-items: center;
+    border: 1ppx solid black;
+    
+}
+.Call{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-color: #3882f6;
+    padding: 10vh 15vw;
+    border-radius: 14px;
+}
+.action button{
+    border: 1px solid white;
+}
+
+.to{
+    display: flex;
+    flex-flow: column wrap;
+}
+footer{
     background-color: #1f2937;
     color: #f9faf8;
     text-align: center;
     padding: 10px;
-}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
 
+}
 /* Mobile responsiveness */
 @media (max-width: 768px) {
     .home h1 {
